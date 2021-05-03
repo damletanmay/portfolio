@@ -1,0 +1,218 @@
+/* Central */
+
+body{
+    font-family: 'Noto Serif', serif;
+    background-blend-mode: darken;
+    background-image: url('images/texture.png');
+}
+
+h1{
+  padding: 25px;
+  font-size: 45px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+h3{
+  font-size: 19px;
+  text-align: center;
+}
+
+h4{
+    margin-left: 14px;
+    padding-top: 20px;
+    font-size: 30px;
+  font-weight: bolder;
+}
+
+h5{
+  padding: 20px;
+}
+
+.list{
+  font-size: 18px;
+}
+
+ul li{
+    color: #393e46;
+}
+
+.img-field{
+  border-radius: 25px;
+  border: 2px solid #393e46;
+  box-shadow: 1px 1px #393e46;
+   height:220px;
+   margin: 5%;
+}
+
+.hr{
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  border:2px solid #393e46;
+}
+
+/* Local */
+
+/* Navabar */
+.navbar{
+  background-color: #393e46;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #7868e6;
+}
+
+/* Home */
+#Home{
+}
+
+.btn{
+  text-decoration: none;
+  color: white;
+  background-color: #393e46;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.btn:hover{
+  color: #87a7b3;
+}
+
+.img-tanmay{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:11%;
+  border-radius: 30px;
+  border: solid 4px;
+  height: 300px;
+  width: 300px;
+  box-shadow: 5px 5px #393e46;
+}
+
+
+
+/* Profile */
+#Profile{
+  padding: 30px;
+  margin: 20px;
+}
+
+.profile-text{
+  font-weight:500;
+  font-size: 19px;
+  margin: 20px;
+}
+
+/* Projects */
+#Projects{
+  transition-timing-function: ease-in;
+  padding:30px;
+  margin: 20px;
+}
+
+.img-project{
+  box-shadow: 3px 3px 3px 3px #393e46;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  border-radius: 25px;
+  border: 2px solid #393e46;
+  height: 300px;
+  width: 350px;
+
+}
+
+.img-project:hover{
+  height: 320px;
+  width: 400px;
+  border-radius: 25px;
+  border: 4px solid black;
+}
+
+/* Work Experience */
+#Work{
+  padding: 30px;
+  margin: 20px;
+}
+
+
+/* Skills */
+#Skills{
+  padding: 30px;
+  margin: 20px;
+}
+
+/* Contact */
+#Contact{
+  padding: 30px;
+  margin: 20px;
+}
+
+.form-control{
+  margin-top: 20px;
+}
+
+.icon{
+  text-decoration: none;
+  color: #393e46;
+  padding: 20px;
+}
+
+.icon:hover{
+  color: black;
+  cursor:pointer;
+}
+
+/* Bottom Bar */
+
+.bottom-bar{
+  padding-top: 33px;
+  height: 80px;
+  max-width: 100%;
+  color: white;
+  font-size: 20px;
+  background-color: #393e46;
+}
+
+/* Media Query*/
+/* For Mobile */
+@media only screen and (max-width: 600px) {
+  .img-field{
+    height:150px;
+    margin: 10%;
+  }
+
+  .img-tanmay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25%;
+    border-radius: 30px;
+    border: solid 4px;
+    height: 180px;
+    width: 180px;
+  }
+
+  .img-project{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    border-radius: 25px;
+    border: 2px solid black;
+    height: 180px;
+    width: 212px;
+  }
+
+  .img-project:hover{
+    height: 180px;
+    width: 212px;
+  }
+}
