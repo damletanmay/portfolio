@@ -90,8 +90,8 @@ ul li{
   margin-top:11%;
   border-radius: 30px;
   border: solid 4px;
-  height: 300px;
-  width: 300px;
+  height: 22%;
+  width: 22%;
   box-shadow: 5px 5px #393e46;
 }
 
@@ -173,7 +173,7 @@ ul li{
 /* Bottom Bar */
 
 .bottom-bar{
-  padding-top: 33px;
+  padding-top: 27px;
   height: 80px;
   max-width: 100%;
   color: white;
@@ -196,8 +196,8 @@ ul li{
     margin-top:25%;
     border-radius: 30px;
     border: solid 4px;
-    height: 180px;
-    width: 180px;
+    height: 40%;
+    width: 40%;
   }
 
   .img-project{
